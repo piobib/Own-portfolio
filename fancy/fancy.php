@@ -1,6 +1,3 @@
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
-<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <div class="row mb-2">
     <?php
 
@@ -14,7 +11,8 @@
 
     }
 
-    $pliki = scandir("../$ROOT/portfolio/$project[path]/mini", 0);
+    $pliki = scandir("../portfolio/$project[path]/mini", 0);
+
     foreach ($pliki as $plik) {
         if ($plik != "." && $plik != "..") {
             ?>

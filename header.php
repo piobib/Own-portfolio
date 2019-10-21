@@ -31,5 +31,14 @@
     <title>Piotr Bibrzycki - portfolio
     </title>
 
+    <?php
+    function wdowki($str)
+    {
+        $new = preg_replace('/ ([a-zA-Z]{1}) /', " $1&nbsp;", $str);
+        echo $new;
+    }
+
+    ?>
+
 </head>
 <body>
