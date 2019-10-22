@@ -38,7 +38,7 @@
         echo $new;
     }
 
-    ?>
+    ?>    
 
 </head>
 <body>

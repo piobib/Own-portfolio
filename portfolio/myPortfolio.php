@@ -1,7 +1,7 @@
 <?php
 if (isset($_GET['project'])) {
 
-    $ROOT = "/PB";
+    $ROOT = "";
     include('../header.php');
     require_once '../config/connect.php';
     $cleanName = filter_input(INPUT_GET, 'project', FILTER_SANITIZE_STRING);

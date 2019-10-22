@@ -1,4 +1,4 @@
-<div style='width: 100%;'>
+<div style='width: 100%;' id='main'>
     <nav class="mb-1 navbar navbar-expand-lg navbar-dark secondary-color lighten-1 fixed-top"
          style='background-color: black;'>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
@@ -24,7 +24,7 @@
             </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item link-border-bottom">
-                    <a class="nav-link" href="#">Strona główna
+                    <a class="nav-link" href="#main">Strona główna
 
             </span> </a>
                 </li>
